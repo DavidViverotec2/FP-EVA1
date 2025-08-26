@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_3_PRINT"/>
+        <attribute name="authors" value="elvat"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 05:33:46 p. m."/>
+        <attribute name="created" value="ZWx2YXQ7REFWSUQ7MjAyNS0wOC0yNjswNToyODo0NiBwLiBtLjsyMzgy"/>
+        <attribute name="edited" value="ZWx2YXQ7REFWSUQ7MjAyNS0wOC0yNjswNTozMzo0NiBwLiBtLjsxOzI0ODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;NOMBRE DEL ESTUDIANTE:&quot;" newline="False"/>
+            <output expression="&quot;DAVID VIVERO&quot;" newline="True"/>
+            <output expression="&quot;NUMERO DE CONTROL:&quot;" newline="False"/>
+            <output expression="&quot;25550861&quot;" newline="True"/>
+            <output expression="&quot;EDAD:&quot;" newline="False"/>
+            <output expression="18" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
