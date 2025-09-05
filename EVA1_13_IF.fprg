@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_13_IF"/>
+        <attribute name="authors" value="elvat"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 05:45:44 p. m."/>
+        <attribute name="created" value="ZWx2YXQ7REFWSUQ7MjAyNS0wOS0wNTswNToyMToxMyBwLiBtLjsyMzY3"/>
+        <attribute name="edited" value="ZWx2YXQ7REFWSUQ7MjAyNS0wOS0wNTswNTo0NTo0NCBwLiBtLjsyOzI0ODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calif" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce tu calificacion expresada en 100: &quot;" newline="True"/>
+            <input variable="calif"/>
+            <if expression="calif &gt;= 70">
+                <then>
+                    <output expression="&quot;FELICIDADES, ACREDITASTE!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NALGADAS POR MALO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
